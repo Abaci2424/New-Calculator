@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  overflow: hidden;
   width: 100%;
   height: 100px;
   margin: 10px auto;
@@ -34,7 +35,6 @@ body {
   inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 .history {
-  
   width: 100%;
   height: auto;
   padding: 8px;
@@ -45,6 +45,7 @@ body {
   color: #b9866d;
   background: #fff5ee00;
   user-select: none;
+  overflow-x: scroll;
 }
 .output {
   width: 100%;
@@ -58,6 +59,7 @@ body {
   border: none;
   background: #fff5ee00;
   user-select: none;
+  overflow-x: scroll;
 }
 
 .buttons {
@@ -70,10 +72,11 @@ body {
   margin: 15px auto;
 }
 .buttons > button:nth-child(1){
-  grid-column: 3 / -1;
+  grid-column: 1 / 4;
   width: 100%;
 }
-.buttons > button:nth-child(18){
+
+.buttons > button:nth-child(17){
   grid-column: 3 / -1;
   width: 100%;
 }
