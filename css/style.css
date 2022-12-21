@@ -45,7 +45,7 @@ body {
   color: #b9866d;
   background: #fff5ee00;
   user-select: none;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .output {
   width: 100%;
@@ -59,7 +59,7 @@ body {
   border: none;
   background: #fff5ee00;
   user-select: none;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .buttons {
